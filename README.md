@@ -40,7 +40,7 @@ Imagine that you are an analyst for a bike rental company. A colleague from the 
  # Lesson 4    
 Now is the time to do your first A / B test.    
 
-**Tasks**    
+**Exercise**    
 Imagine working as an analyst for a very large pizza delivery company on a courier app (yes, they usually have a courier app and a separate consumer app).    
 You have several restaurants in different parts of the city and a whole staff of couriers. But there is one problem - by the evening, the delivery speed drops due to the fact that couriers go home after a working day, and the number of orders is only growing. This leads to the fact that at the time of the shift change, our delivery is very much sagging in efficiency.    
 
