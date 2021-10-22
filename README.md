@@ -35,4 +35,15 @@ Imagine that you are an analyst for a bike rental company. A colleague from the 
 5. Calculate the difference between the observed and the values calculated using the moving average. Next, find the standard deviation.    
 6. Determine the boundaries of the 99% confidence interval, add this information to the dataframe.    
 7. Examine abnormally high values and indicate the day on which the number of rentals was highest. Find the cause of the anomaly.    
-8. Examine abnormally low values, find the day with the fewest rentals. Find the cause of the anomaly.    
+8. Examine abnormally low values, find the day with the fewest rentals. Find the cause of the anomaly.     
+
+ # Lesson 4    
+Now is the time to do your first A / B test.    
+
+**Tasks**    
+Imagine working as an analyst for a very large pizza delivery company on a courier app (yes, they usually have a courier app and a separate consumer app).    
+You have several restaurants in different parts of the city and a whole staff of couriers. But there is one problem - by the evening, the delivery speed drops due to the fact that couriers go home after a working day, and the number of orders is only growing. This leads to the fact that at the time of the shift change, our delivery is very much sagging in efficiency.    
+
+Our data scientists have come up with a new algorithm that allows couriers to schedule their last orders before the end of the working day so that their delivery route matches the route to their home. That is, for couriers to deliver their last orders for the day, as it were, "on the way" home.    
+
+Together with your team, you decided to roll the A / B test into two equal groups of couriers. Some couriers use the old algorithm without the "along the way" option, others see this option in their application and can choose it. Your task is to analyze the experiment data and help the business make a decision on rolling out the new feature to all couriers.    
