@@ -73,8 +73,7 @@ In this lesson, we will apply linear regression in practice - let's try to predi
 
 **Tasks:**    
 1. Load data, check correctness, missing values, data types.    
-2. Create a new characteristic - car brand (company). What manufacturers' machines are found in the dataset? Next, correct the names and check the changes.    
-3.Leave only some of the predictors, and then calculate the correlation between price and other variables.    
+2. Create a new characteristic - car brand (company). What manufacturers' machines are found in the dataset? Next, correct the names and check the changes.  3.Leave only some of the predictors, and then calculate the correlation between price and other variables.    
 4. Convert categorical variables with pd.get_dummies ().    
 5. Build a model with one price predictor, horsepower. What percentage of variability does the resulting model explain?        
 6. Further - two models (with all predictors and with all, except for car brands). Note the changes in $R^2$, coefficients and their significance. Which model is better to keep?    
