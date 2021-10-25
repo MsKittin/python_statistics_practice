@@ -46,4 +46,24 @@ You have several restaurants in different parts of the city and a whole staff of
 
 Our data scientists have come up with a new algorithm that allows couriers to schedule their last orders before the end of the working day so that their delivery route matches the route to their home. That is, for couriers to deliver their last orders for the day, as it were, "on the way" home.    
 
-Together with your team, you decided to roll the A / B test into two equal groups of couriers. Some couriers use the old algorithm without the "along the way" option, others see this option in their application and can choose it. Your task is to analyze the experiment data and help the business make a decision on rolling out the new feature to all couriers.    
+Together with your team, you decided to roll the A / B test into two equal groups of couriers. Some couriers use the old algorithm without the "along the way" option, others see this option in their application and can choose it. Your task is to analyze the experiment data and help the business make a decision on rolling out the new feature to all couriers.   
+
+# Lesson 5    
+You are working in a food delivery app. A colleague came to you with the results of two tests:    
+
+* The first tested the resolution of photos of dishes in the app: users were shown either rectangular or new squared    
+* In the second: the order button was updated, and some users saw the old version, and some saw the new one    
+
+A colleague came to you with a request: he looked at the graphs and suggested that there might be differences among the groups. Your task is to help him test hypotheses, draw appropriate conclusions based on statistical tests, and make decisions.    
+
+**Tasks:**    
+1. Choose the method that is supposed to work in the first question.    
+2. Check if the variances within the groups are homogeneous.    
+3. Test for normal distribution.    
+4. Compare the averages in the groups presented.    
+5. Use Tukey's test and determine which groups are statistically significant differences.    
+6. Make a decision: what shape of images will we need to use in thr app?     
+7. Choose a method for the second test.    
+8. Visualize the distribution of events for the control and test groups.    
+9. Look at the descriptive statistics for events by group and by user segment.    
+10. Choose a formula for the model, conduct a test.    
