@@ -66,4 +66,4 @@ A colleague came to you with a request: he looked at the graphs and suggested th
 7. Choose a method for the second test.    
 8. Visualize the distribution of events for the control and test groups.    
 9. Look at the descriptive statistics for events by group and by user segment.    
-10. 10.Choose a formula for the model, conduct a test.    
+10. Choose a formula for the model, conduct a test.    
