@@ -67,3 +67,14 @@ A colleague came to you with a request: he looked at the graphs and suggested th
 8. Visualize the distribution of events for the control and test groups.    
 9. Look at the descriptive statistics for events by group and by user segment.    
 10. Choose a formula for the model, conduct a test.    
+
+# Lesson 6    
+In this lesson, we will apply linear regression in practice - let's try to predict the cost of cars and understand what factors determine the pricing of cars. In addition, we will find out which variables are important for forecasting and how well the resulting model describes the data.    
+
+**Tasks:**    
+1. Load data, check correctness, missing values, data types.    
+2. Create a new characteristic - car brand (company). What manufacturers' machines are found in the dataset? Next, correct the names and check the changes.    
+3.Leave only some of the predictors, and then calculate the correlation between price and other variables.    
+4. Convert categorical variables with pd.get_dummies ().    
+5. Build a model with one price predictor, horsepower. What percentage of variability does the resulting model explain?        
+6. Further - two models (with all predictors and with all, except for car brands). Note the changes in $R^2$, coefficients and their significance. Which model is better to keep?    
